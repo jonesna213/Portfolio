@@ -13,7 +13,7 @@ const Navigation = () => {
     return (
         <nav className={`navbar navbar-expand-md navbar-light bg-light ${styles.navbar}`}>
             <div className="container">
-                <NavLink className="navbar-brand" href="/">
+                <NavLink className="navbar-brand" to="/">
                     <img src={image} alt="Navy Jones" className={`rounded-circle ${styles.pic}`} />
                     <span className="mx-3 fw-bold">Navy Jones</span>
                 </NavLink>
