@@ -6,8 +6,10 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .end {
     text-align: center;
@@ -15,6 +17,6 @@
 .socials a {
     margin: 1rem;
 }
-h2 {
+.row h4 {
     margin-bottom: 2rem;
 }
