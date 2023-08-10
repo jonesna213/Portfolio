@@ -8,3 +8,18 @@
     background-color: #007bff;
     border-radius: 50px;
 }
+
+.contactButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.contactButton:hover {
+    transform: translateY(-5px);
+}
