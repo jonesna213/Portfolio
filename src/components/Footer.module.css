@@ -8,14 +8,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 .end {
     text-align: center;
 }
-.socials a {
-    margin: 1rem;
+.links a {
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 .row h4 {
     margin-bottom: 2rem;
