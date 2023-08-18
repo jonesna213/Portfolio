@@ -63,7 +63,7 @@ const ContactPage = () => {
             {successfulSubmit && <p className="text-success mt-5 text-center fw-bold">Message Sent!</p>}
             {sendingMessage && <p className="text-secondary mt-5 text-center fw-bold">Sending...</p>}
 
-            <form onSubmit={submitHandler} className={`w-50 mx-auto border rounded p-4 px-5 my-5 shadow ${styles.form}`}>
+            <form onSubmit={submitHandler} className={`mx-auto border rounded py-4 px-5 my-5 shadow ${styles.form}`}>
                 <div className="my-3">
                     <label className="form-label" htmlFor="name">Name</label>
                     <input type="text" className="form-control bg-light" id="name" name="name" placeholder="Enter your name" value={name} onChange={event => { inputChangeHandler("name", event.target.value) }} required />

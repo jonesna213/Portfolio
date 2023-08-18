@@ -12,3 +12,13 @@
     background-color: #007bff;
     border-radius: 50px;
 }
+
+.form {
+    width: 75%;
+}
+
+@media (min-width: 576px) {
+    .form {
+        width: 50%;
+    }
+}
