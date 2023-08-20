@@ -11,6 +11,10 @@ const ProjectsPage = () => {
                 <img src="" alt="" />
                 <p></p>
             </div>
+            <div>
+                <img src="" alt="" />
+                <p></p>
+            </div>
         </div>
     );
 }
