@@ -4,11 +4,19 @@
 
 .text {
     color: #666;
+    margin-bottom: 6rem;
 }
 
 .customHr {
     height: 8px;
     width: 50px;
     background-color: #007bff;
+    border-radius: 50px;
+}
+
+.biggerCustomHr {
+    height: 8px;
+    width: 25rem;
+    background-color: #525252;
     border-radius: 50px;
 }
