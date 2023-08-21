@@ -1,6 +1,6 @@
 import styles from "./css/Projects.module.css";
-import lookupPic from "../assets/PartLookupPic.JPG";
-import portfolioPic from "../assets/PortfolioPic.JPG"
+import lookupPic from "../assets/PartLookupPic.jpg";
+import portfolioPic from "../assets/PortfolioPic.jpg"
 import Github from "../components/Github";
 
 const ProjectsPage = () => {
@@ -38,7 +38,6 @@ const ProjectsPage = () => {
                     <div className="col-md-1"></div>
                 </div>
             </section>
-
         </div>
     );
 }
